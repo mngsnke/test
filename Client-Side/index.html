@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <title>Logitech Express</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/jpg">
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+    <header>
+            <div class="main">
+                    <div class="navbar">
+                        <a href="index.html">Home</a>
+                    </div>   
+                </div>
+                <div class = "main">
+                    <h1 class="welcome">Welcome</h1>
+                    <button class="button" onclick="login()">Book Now!</button>
+                    <script>
+                        function login() {
+                            window.location.href = 'pages/login.ejs'
+                        }
+                    </script>
+                </div>
+    </header>
+    <script src="js/background.js"></script>
+
+    <script>
+      easy_background("header",{
+          slide: ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+            
+          delay: [2000, 2000, 2000, 2000, 2000]
+        }  
+      );
+    </script>
+</body>
+</html>

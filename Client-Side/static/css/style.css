@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Vigrand;
+    src: url('../fonts/Vigrand-Regular.ttf');
+}
+
+body {
+    margin: 0px;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/1.jpg), url(../images/2.jpg), url(../images/3.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.welcome {
+    color: white;
+    font-family: Vigrand;
+    font-size: 150px;
+    left: 675px;
+    padding-top: 300px;
+    position: absolute;
+}
+
+.button, .nav, .login-box {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button {
+    border-radius: 25px;
+    margin-top: 550px;
+    left: 700px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+}
+
+.button:hover{
+    background-color: #b2b2b2
+}
+
+.mySlides {
+	display: none;
+}
+
+.nav {
+    padding: 25px;
+    padding-right: 100px;
+    text-align: right;
+}
+
+.login-box {
+    text-align: center;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 50px;
+    margin-top: 150px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.option {
+    text-align: center;
+    text-decoration: none;
+    color: black
+}
+.navbar {
+    overflow: hidden;
+    background-color: #0d0d0d;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+
+table, th, tr{
+    border: 1px solid black;
+}
+
+table, tr {
+    width: 100%;
+}
